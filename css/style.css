@@ -1632,3 +1632,27 @@ a.current_dot {
       right:-10px;
   }
 }
+
+.big-title{
+
+  width: 25em;
+		    white-space:nowrap;
+		    overflow:hidden;
+		    -webkit-animation: frag1type 20s steps(50, end) 0s infinite;
+		    animation: frag1type 20s steps(50, end) 0s infinite;
+}
+@keyframes frag1type{
+		    
+		    from { width: 0;}
+		    37%{width:25em;}
+		    49%{width:0;}
+		    100%{width:0;}
+		}
+
+		@-webkit-keyframes frag1type{
+		    from { width: 0;}
+		    37%{width:25em;}
+		    49%{width:0;}
+		    100%{width:0;}
+		}
+  
